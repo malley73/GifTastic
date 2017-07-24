@@ -63,6 +63,7 @@ $(document).ready(function() {
       a.text(starWarsTerms[i]);
       $(".buttoncontainer").append(a);
     }
+    //added function wrapper to ajax on click as it would stop working if I added a button.
     readystate();
   }
 
