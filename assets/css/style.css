@@ -1,0 +1,35 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+h1 {
+  padding: 20px;
+  font-family: 'Star Jedi', arial;
+  font-size: 60px;
+  color: white;
+}
+
+body {
+  background-color: black;
+  background-image: url('../images/DeathStar.jpg');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+}
+img{
+	margin-bottom: 20px;
+}
+
+.gifDiv {
+  margin: 20px;
+}
+
+label,
+p {
+  color: white;
+}

@@ -47,7 +47,7 @@ $(document).ready(function() {
   $("#addsearch").on("click", function(event) {
     event.preventDefault();
     var searchTerm = $("#starwarsinput").val().trim();
-    if (searchTerm != ""){
+    if (searchTerm != "") {
       starWarsTerms.push(searchTerm);
     }
     renderButtons();
